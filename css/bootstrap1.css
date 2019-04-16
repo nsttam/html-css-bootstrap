@@ -1,0 +1,195 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar{
+	font-family: 'Titillium Web', sans-serif;
+	opacity: 0.75;
+	
+	
+}
+
+/*transparence navbar*/
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: rgb(0, 0, 0); opacity: 0.85;
+    width:100%;
+}
+
+.fas {
+	color:#FFFFFF
+}
+
+
+.col {
+	flex-basis:inherit !important;
+}
+/*carre texte sur carousel*/
+.carousel-caption{
+	border: 5px solid #ee9f87;
+	margin: 100px 200px 100px 200px;
+	background-color:#93DAEF;
+	
+}
+h1{
+	color:#d835b9;
+	font-size:35px
+}
+
+/*position droit pour puces carousel*/
+.carousel-indicators{
+	text-align: right;
+    float: right;
+    left:inherit;
+}
+/*forme ronde pour indicators carousel*/
+.carousel-indicators li{
+	width:20px;
+	height:20px;
+	border-radius:100%
+}
+
+
+
+.carousel {
+    top:0;
+}
+.carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+
+#description{
+	margin-top:30px;
+}
+
+#computer{
+	background-color:#cec7c7;
+	background-repeat:no-repeat;
+	height:380px
+}
+
+#text{
+	padding:50px 0px 0px 100px;
+	text-align:justify
+}
+/*Hover effects sur photos*/
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+/*degradé background footer*/
+#foot{
+	background-image: linear-gradient(#ffc0cb, #c6e2ff);
+    height: 200px;
+	margin-top:8px
+}
+
+#coordonees{
+	padding:50px 50px 50px 59px
+}
+
+#formulaire{
+	padding:50px 59px 50px 0px
+}
+
+#photo{
+	padding:50px 50px 50px 90px
+}
+/* Valeurs pour responsive*/
+@media screen and (max-width: 991px)
+{
+.computer{
+	display:none;
+}
+#foot{
+	height:400px
+}
+.carousel-caption{
+display:none
+}
+#design{
+flex-direction:row
+}
+#text{
+	padding:50px 15px 0px 15px;
+	text-align:center
+}
+
+	

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Mon Portfolio</title>
+  <link rel= "stylesheet" href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <link rel= "stylesheet" href="css/bootstrap1.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 991px)" href="css/bootstrap1.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div id="menu"><!-- bloc menu avec menu deroulant responsive-->
+		
+			
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				  <a class="navbar-brand" href="index.html"><img src="image/portfolio.png" width="50px" height="auto" alt="logo"/>
+				  </a>
+				   
+				  
+						  <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+
+						  
+						<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							<div class="container">
+								   <div class="row">
+											<ul class="row navbar-nav col-md-7 offset-5">
+											  
+												 
+											  <li class="col col-md-2 nav-item active">
+												<a class="nav-link" href="index.html">
+													Accueil
+												</a>
+											  </li>
+											  <li class="col col-md-2 nav-item active">
+												<a class="nav-link disabled" href="page2.html">
+													A propos
+												</a>
+											  </li>
+											  <li class="col col-md-2 nav-item active">
+												<a class="nav-link" href="page3.html">
+													Blog<span class="sr-only">(current)</span>
+												</a>
+											  </li>
+											  <li class="col col-md-2 nav-item active">
+												<a class="nav-link" href="page4.html">
+													Contact <span class="sr-only">(current)</span>
+												</a>
+											  </li>
+											  
+											  <li class="col col-md-2 nav-item active">
+												<a class="nav-item nav-link" href="#">
+													<i class="fas fa-user"></i>
+												</a> 
+												
+											  </li>
+											  <li class="col col-md-1 nav-item active">
+												<a class="nav-item nav-link" href="#">
+													<i class="fas fa-th"></i>
+												</a>
+											  </li>
+											  
+											  <li class="col col-md-1 nav-item active">
+												<a class="nav-item nav-link" href="#">
+													<i class="fas fa-search"></i>
+												</a> 
+												
+											  </li>
+											  
+											</ul>
+											
+										
+								   </div>
+							</div>
+						</div>
+				</nav>
+
+			
+		</div>
+		
+		<!--Slide photos-->
+		
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+					<li data-target="carousel-indicators" data-slide-to="0"></li>
+					<li data-target="carousel-indicators" data-slide-to="1"></li>
+					<li data-target="carousel-indicators" data-slide-to="2"></li>
+					<li data-target="carousel-indicators" data-slide-to="3"></li>
+				  </ol>
+			<div class="carousel-inner">
+					<div class="carousel-caption d-none d-md-block">
+					<!--Text afiche sur le carousel-->
+							<h1>WEBSITE MADE WITH LOVE</h1>
+							<p>
+								<a class="btn btn-primary" href="page2.html" role="button">
+									Me connaitre
+								</a>
+								<a class="btn btn-primary" href="page4.html" role="button">
+									Me contacter
+								</a>
+							</p>
+							
+					</div>
+					<!--Carousel images-->
+					<div class="carousel-item active">
+					  <img class="d-block w-100" src="image/bubble1.jpg" alt="First slide">
+						  
+					</div>
+					
+					<div class="carousel-item">
+					  <img class="d-block w-100" src="image/bubble2.jpg" alt="Second slide">
+						   
+					</div>
+					
+					<div class="carousel-item">
+					  <img class="d-block w-100" src="image/bubble3.jpg" alt="Third slide">
+						   
+					</div>
+					
+					<div class="carousel-item">
+					  <img class="d-block w-100" src="image/bubble4.jpg" alt="Fourth slide">
+						   
+					</div>
+					<!--Carousel buttons-->
+			</div>
+				 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				 </a>
+				 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+
+		</div>
+		
+	</header>
+	
+	<main>
+		<div id="description" class="container">
+			<div class="row">
+				<div id="design" class="col-md-4 col-12 col-sm-12 text-center">
+				
+				    <i class="fab fa-gg fa-3x"></i>
+					<h2>Design</h2>
+						<p>
+							Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis </br>
+							est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, </br>
+							omnis voluptas assumenda est, omnis dolor repellendus
+						<p>
+					
+				</div>
+				
+				<div id="developpement" class="col-md-4 col-12 col-sm-12 text-center">
+				    <i class="fab fa-500px fa-3x"></i>
+					<h2>Developpement</h2>
+						<p>
+							Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis </br>
+							est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, </br>
+							omnis voluptas assumenda est, omnis dolor repellendus
+						<p>
+					
+				</div>
+				
+				<div id="test" class="col-md-4 col-12 col-sm-12 text-center">
+				    <i class="fas fa-vial fa-3x"></i>
+					<h2>Test</h2>
+						<p>
+							Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis </br>
+							est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, </br>
+							omnis voluptas assumenda est, omnis dolor repellendus
+						<p>
+					
+				</div>
+		  </div>
+		</div>
+		
+				<div id="computer" class="container-fluid" >
+					<div class="row">
+						<div id="text" class="col-md-6 col-12 col-sm-12" >
+							<h2>JE TRAVAIL DUR</h2>
+							<p>
+								Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias.
+								quid enim me prohiberet Epicureum esse, si probarem, quae ille diceret? cum praesertim illa perdiscere ludus esset.</br>
+								Quam ob rem dissentientium inter se reprehensiones non sunt vituperandae, maledicta, contumeliae, tum iracundiae,
+								contentiones concertationesque in disputando pertinaces indignae philosophia mihi videri solent.
+							</p>
+						</div>
+						
+							<div id="photo" class="col-md-6">
+								<img src="image/computer.png" alt="computer" class="computer">
+							</div>
+						
+					</div>
+				</div>	
+               
+                
+				<div id="jobs" class="col-md-12 col-12 colsm-12 bg-dark text-light text-center">
+						<h2>MES DERNIERES JOBS</h2>
+				</div>
+				<!--Photos avec effect hover-->
+				<div id="photos" class="container-fluid">
+					<div class="row">
+						<div id="photo1" class="col-md-3 col-6 col-sm-6">
+							<div class="hovereffect">
+								<img class="img-responsive" src="image/photo.jpg" alt="">
+									<div class="overlay">
+									   <h2>Photo</h2>
+									   <a class="info" href="#">
+											Voir
+									   </a>
+									</div>
+							</div>                                         
+							
+						</div>
+						
+						<div id="photo2" class="col-md-3 col-6 col-sm-6">
+								<div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>			
+										</div>
+							   </div>   
+						</div>
+						
+						<div id="photo3" class="col-md-3 col-6 col-sm-6">
+								<div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>
+														
+										</div>
+							   </div>  
+						</div>
+						
+						<div id="photo4" class="col-md-3 col-6 col-sm-6">
+							<div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>
+														
+										</div>
+							</div>  
+						</div>
+						
+						<div id="photo5" class="col-md-3 col-6 col-sm-6">
+							   <div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>
+														
+										</div>
+							   </div>                                                 
+							
+						</div>
+						
+						<div id="photo6" class="col-md-3 col-6 col-sm-6">
+								<div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>
+														
+										</div>
+							   </div>   
+						</div>
+						
+						<div id="photo7" class="col-md-3 col-6 col-sm-6">
+								<div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>
+														
+										</div>
+							   </div>  
+						</div>
+						
+						<div id="photo8" class="col-md-3 col-6 col-sm-6">
+							<div class="hovereffect">
+										<img class="img-responsive" src="image/photo.jpg" alt="">
+										<div class="overlay">
+											<h2>Photo</h2>
+											<a class="info" href="#">
+												Voir
+											</a>
+														
+										</div>
+							</div>  
+						</div>
+					</div>
+				</div>
+					
+				
+							   
+		
+				
+	
+	</main>
+	
+	<footer>
+			<div id="foot" class="container-fluid">
+			    
+					<div class="row">
+						<div id="coordonees" class="col-md-4 col-12 col-sm-12 order-md-1 order-2 order-sm-2">
+							<p>
+						<!--icons coordonees-->
+								<i class="fas fa-phone-square fa-lg"></i> 07.69.45.58.26</br>
+								<i class="fas fa-envelope-square fa-lg"></i> travagnan@humanbooster.com
+							   
+							</p>
+						</div>
+						<!--formulaire newsletter-->
+						<div id="formulaire" class="offset-2 col-md-6 col-10 col-sm-10 order-md-2 order-1 order-sm-1">
+							<form method="post">
+						
+								
+								<label for="newsletter">Newsletter</label></br>
+								<input type="text" name="name" id="name" placeholder="Nom" class="text"/>
+								<input type="text" name="surname" id="surname" placeholder="Prenom" class="text"/></br>
+								<input type="email" name="email" id="email" placeholder="Email" class="text"/>
+								<input type="submit" value="Envoyer" class="button" />
+					   
+								
+							</form>
+						</div>
+					</div>
+				
+			</div>
+	</footer>
+
+
+
+</body>
+
+</html>
